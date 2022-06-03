@@ -1,18 +1,13 @@
-Emoji Search
----
+# React Testing
 
-Created with *create-react-app*. See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+React'ın kendi dokümanlarında paylaşılan örnek projerde bulunan ve halihazırda çalışan bir uygulamanın test kodları;
 
+## Emoji-Search Emoji aramak için basit bir React uygulaması
 
+Uygulama üzerinde bazı emojiler listeleniyor. Ve yukarıda bulunan input aracılığı ile listelenen emojiler filtrelenebiliyor.
 
-Install
----
+## Test kodlarının işlevselliği
 
-`npm install`
-
-
-
-Usage
----
-
-`npm start`
+-Başlık kısmının başarılı bir şekilde render edildiğini kontrol eden olan test kodu.
+-Uygulama ilk açıldığında emoji listesinin başarılı bir şekilde render edildiğini kontrol eden test kodu.
+-Bir filtreleme işlemi yapıldığında, emoji listesinin bu filtreye uygun şekilde yeniden render edildiğini kontrol eden test kodu.
